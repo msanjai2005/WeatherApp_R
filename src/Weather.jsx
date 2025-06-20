@@ -106,7 +106,7 @@ function Weather() {
       setCityNotFound(false);
 
     } catch(error){
-      setError("An error occurred : ",error.message )
+      setError("An error occurred while Fetching Data" )
     }finally{
       setLoading(false)
     }
@@ -148,7 +148,7 @@ function Weather() {
           {cityNotFound && <div className="cityNotFound">City Not Found</div>}
 
 
-          {!loading && !cityNotFound&&<WeatherDetails 
+          {!loading && !cityNotFound&& !error && <WeatherDetails 
             temp={temp} icon={icon} 
             city={city} country={country} 
             late={late} long={long}

@@ -242,9 +242,11 @@ sup{
   text-align: center;
   font-size: 12px;
   color: #888;
+  margin: 10px 0;
 }
 .copyright span{
   color: #333;
+  
 }
 .loading,
 .erroeMessage,
@@ -258,8 +260,6 @@ sup{
 
 @media(max-width:500px){
   .container{
-    width: 95vw !important;
-    height: 97dvh !important;
-    border-radius: 0 !important;
+    width: 90vw !important;
   }
 }
