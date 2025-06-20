@@ -1,0 +1,29 @@
+{
+"questions" : [
+    {
+      "question": "1. What does React use to manage the DOM efficiently?",
+      "option": ["Real DOM", "Shadow DOM", "Virtual DOM", "Custom DOM"],
+      "answer": 2
+    },
+    {
+      "question": "2. Which hook is used to manage state in a functional component?",
+      "option": ["useState", "useEffect", "useReducer", "useRef"],
+      "answer": 0
+    },
+    {
+      "question": "3. What is the correct way to update state in React using useState?",
+      "option": ["state = newValue", " setState(newValue)", "setNewState(newValue)", "setStateFunction(newValue)"],
+      "answer": 3
+    },
+    {
+      "question": "4. Which company developed React?",
+      "option": ["Google", "Microsoft", "Facebook", "Apple"],
+      "answer": 2
+    },
+    {
+      "question": "5. What is JSX in React?",
+      "option": ["A CSS framework", "A syntax extension for JavaScript", "A JSON parser", "A React method"],
+      "answer": 1
+    }
+  ]
+}
