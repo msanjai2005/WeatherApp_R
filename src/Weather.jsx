@@ -109,6 +109,7 @@ function Weather() {
       setError("An error occurred while Fetching Data" )
     }finally{
       setLoading(false)
+      setText("");
     }
   }
 
@@ -144,7 +145,7 @@ function Weather() {
           </header>
 
           {loading && <div className="loading">Loading...</div>}
-          {error && <div className="erroeMessage">{error}</div>}
+          {error && <div className="errorMessage">{error}</div>}
           {cityNotFound && <div className="cityNotFound">City Not Found</div>}
 
 
