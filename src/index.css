@@ -167,7 +167,7 @@ sup{
 @media(max-width:500px){
   .container{
     width: 100vw !important;
-    height: 100% !important;
+    height: 100dvh !important;
   }
   .header{
     padding: 20px !important;
