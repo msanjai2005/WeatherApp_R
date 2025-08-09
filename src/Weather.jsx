@@ -7,6 +7,7 @@ import cloudy from './assets/cloudy.jpg'
 import airIcon from './assets/air.png'
 import humidityIcon from './assets/humidity.png'
 import mainIcon from './assets/mainIcon.webp'
+import TimeDisplay from './TimeDisplay';
 
 const WeatherDetails = (props) =>{
   return(
@@ -130,7 +131,10 @@ function Weather() {
           <header>
             <div className='header'>
               <img src={mainIcon} alt="" />
-              <h1> Weather App</h1>
+              <div>
+                <h1>Weather App</h1>
+                <TimeDisplay  format="12h" showSeconds={false} />
+              </div>
             </div>
           
             <div className='input'>
