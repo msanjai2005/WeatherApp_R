@@ -7,34 +7,36 @@
 body{
   width: 100vw;
   height: 100vh;
-  background-color: #373737;
+  background-color: #efefef;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container{
-  width: 350px;
-  padding: 10px;
-  border: 1px solid rgb(255, 255, 255);
+  width: 450px;
+  padding: 10px !important;
+  background-color: #ffffff;
   border-radius: 10px;
-  background-color: #fff;
 }
 header{
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   gap: 20px;
 }
 .header{
+  padding: 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 20px;
 }
 .header img{
   width: 40px;
+}
+.input{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .input_container{
   display: flex;
@@ -155,6 +157,10 @@ sup{
 
 @media(max-width:500px){
   .container{
-    width: 90vw !important;
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+  .header{
+    padding: 20px !important;
   }
 }

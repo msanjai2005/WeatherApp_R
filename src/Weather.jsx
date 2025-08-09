@@ -133,7 +133,8 @@ function Weather() {
               <h1> Weather App</h1>
             </div>
           
-            <div className="input_container">
+            <div className='input'>
+              <div className="input_container">
                 <input type="text" 
                 value={text} 
                 onKeyDown={handleKeyDown}
@@ -141,6 +142,7 @@ function Weather() {
                 placeholder='Enter City Name ...'
                 onChange={handleCity}/>
                 <img src={searchIcon} alt="" onClick={()=>search(text)}/>
+              </div>
             </div>
           </header>
 
